@@ -1,0 +1,10 @@
+
+
+
+function changeStyle() {
+  let textElement = document.querySelector("#Clickhere");
+  
+
+  textElement.style.cssText = "color: purple; font-size: 37px; font-style: strong; background-color: red;";
+}
+
