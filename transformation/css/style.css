@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+
+    /* ✅ Background image */
+    background-image: url(https://web.archive.org/web/20090725223313/http://www.geocities.com/arielpurkey/starstwinkle.gif);
+    background-size: cover;
+    background-position: center;
+
+    /* ✅ Center everything */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image above buttons */
+#planet img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
