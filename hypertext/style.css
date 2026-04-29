@@ -1,0 +1,131 @@
+
+.container {
+    position: relative;
+}
+.frame {
+position: relative;
+z-index: 2;
+width: 950px;
+height: 900px;
+background-image: url(tvset.png);
+background-size: 100%;
+margin: auto;
+padding: 25px 15px;
+
+}
+.filter {
+    position: absolute;
+    z-index: 5;
+    width: 752px;
+    height: 588px;
+    background-image: url(static.gif);
+    background-size: 100%;
+    margin-left: 380px;
+    margin-top: 105px;
+    opacity: 25%;
+    
+}
+.remote {
+    position: absolute;
+    z-index: 6;
+    width: 650px;
+    height: 420px;
+    background-image: url(ps1.png);
+    background-size: 100%; 
+    margin-left: 750px;
+    margin-top: 600px;
+}
+.circle {
+    display:block;
+    position: absolute;
+    z-index: 7;
+    width: 50px;
+    height: 48px;
+    background: url(continue.png);
+    background-size: 100%;
+    margin-left: 1268px;
+    margin-top: 743px;
+}
+.x {
+     display:block;
+    position: absolute;
+    z-index: 7;
+    width: 50px;
+    height: 48px;
+    background: url(x.png);
+    background-size: 100%;
+    margin-left: 1214px;
+    margin-top: 793px;
+}
+img {
+position: relative;
+z-index: 1;
+width: 753px;
+height: 583px;  
+padding-left: 107px;
+padding-top: 86px;
+}
+.bg {
+    background-color: blue;
+    background-size:cover
+}
+h1 {
+position: absolute;
+z-index: 8;
+    size: large;
+    font-family: sans-serif, monospace;
+    color: rgb(230, 186, 12);
+    margin-bottom: 400px;
+    margin-left: 350px;
+    margin-top: -105px;
+}
+h2 {
+    position: absolute;
+z-index: 9;
+    size: large;
+    font-family: sans-serif, monospace;
+    color: rgb(126, 151, 232);
+    margin-bottom: 400px;
+    margin-left: 200px;
+    margin-top: -55px;
+}
+h3 {
+    position: absolute;
+z-index: 9;
+    size: large;
+    font-family: sans-serif, monospace;
+    color: rgb(126, 151, 232);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+h4 {
+    position: absolute;
+z-index: 9;
+    font-size: x-large;
+    font-family: sans-serif, monospace;
+    color: rgb(255, 238, 238);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -450px;
+}
+h5 {
+    position: absolute;
+z-index: 9;
+    font-size: x-large;
+    font-family: sans-serif, monospace;
+    color: rgb(255, 255, 255);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -350px;
+}
+h6 {
+    position: absolute;
+z-index: 9;
+    font-size:medium;
+    font-family: sans-serif, monospace;
+    color: rgb(0, 0, 0);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -355px;
+}
