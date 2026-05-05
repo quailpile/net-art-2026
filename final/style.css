@@ -1,0 +1,97 @@
+
+
+
+.filter {
+display:block;
+    position: absolute;
+    z-index: 5;
+    width: 1525px;
+    height: 725px;
+    background-image: url(static.gif);
+    background-size: 100%;
+   
+    opacity: 7%;
+    
+}
+.filters {
+display:block;
+    position: absolute;
+    z-index: 11;
+    width: 1525px;
+    height: 725px;
+    background-image: url(sstatic.gif);
+    background-size: 100%;
+   
+    opacity: 7%;
+    
+}
+img {
+display:block;
+position: relative;
+width: 100vw;
+height: 100vh;
+object-fit: fill;
+z-index: 1;
+}
+
+
+h1 {
+position: absolute;
+z-index: 8;
+    font-size: 45px;
+    font-family: sans-serif, monospace;
+    color: rgb(230, 186, 12);
+    margin-bottom: 400px;
+    margin-left: 350px;
+    margin-top: -105px;
+}
+h2 {
+    position: absolute;
+z-index: 8;
+    font-size: 40px;
+    font-family: sans-serif, monospace;
+    color: rgb(126, 151, 232);
+    margin-bottom: 420px;
+    margin-left: 200px;
+    margin-top: -65px;
+}
+h3 {
+    position: absolute;
+z-index: 9;
+    font-size:35px;
+    font-family: sans-serif, monospace;
+    color: rgb(126, 151, 232);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+h4 {
+    position: absolute;
+z-index: 9;
+    font-size: 35px;
+    font-family: sans-serif, monospace;
+    color: rgb(126, 151, 232);
+    margin-bottom: 400px;
+    margin-left: 750px;
+    margin-top: -50px;
+}
+h5 {
+    position: absolute;
+z-index: 9;
+    font-size: 35px;
+    font-family: sans-serif, monospace;
+    color: rgb(255, 255, 255);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -350px;
+}
+h6 {
+    position: absolute;
+z-index: 9;
+    font-size: 30px;
+    font-family: sans-serif, monospace;
+    color: rgb(0, 0, 0);
+    margin-bottom: 400px;
+    margin-left: 150px;
+    margin-top: -355px;
+}
